@@ -1,4 +1,4 @@
-import options as optns, json, asyncdispatch
+import options, json, asyncdispatch
 import tables, ../constants
 from ws import Websocket
 
