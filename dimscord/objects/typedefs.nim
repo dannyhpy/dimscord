@@ -336,6 +336,7 @@ type
         kind*: InteractionResponseType
         data*: Option[InteractionApplicationCommandCallbackData]
     InteractionApplicationCommandCallbackData* = object
+        flags*: Option[int]
         tts*: Option[bool]
         content*: string
         embeds*: seq[Embed]
